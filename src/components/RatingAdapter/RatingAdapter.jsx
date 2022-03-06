@@ -1,5 +1,5 @@
 import { FormHelperText, InputLabel, Rating } from "@mui/material";
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 import LocalFireDepartmentOutlinedIcon from "@mui/icons-material/LocalFireDepartmentOutlined";
 import styles from "./RatingAdapter.module.scss";
