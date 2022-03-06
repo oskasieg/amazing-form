@@ -111,7 +111,7 @@ const OrderFoodForm = () => {
 
   return (
     <>
-      <CssTypography variant="h6" theme={theme} gutterBottom component="div">
+      <CssTypography variant="h6" theme={theme} component="div">
         Order your food
       </CssTypography>
       <Form
