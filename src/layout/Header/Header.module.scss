@@ -1,0 +1,53 @@
+.Header {
+  background-color: #1b2223;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  user-select: none;
+
+  @media (min-width: 1500px) {
+    box-shadow: 1px 2px 20px 1px #a32eab;
+  }
+
+  &__name {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__text {
+    color: white;
+    font-size: 1.7em;
+    margin: 0;
+
+    span {
+      color: #8b00f9;
+    }
+  }
+
+  &__themeButton {
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: inherit;
+    border: none;
+    width: 30px;
+    cursor: pointer;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

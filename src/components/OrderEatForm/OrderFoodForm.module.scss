@@ -1,0 +1,27 @@
+.OrderEatForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 750px;
+  width: 450px;
+
+  @media screen and (max-width: 500px) {
+    width: auto;
+  }
+
+  &__title {
+    color: black;
+  }
+
+  &__titleDark {
+    color: white;
+  }
+
+  &__inputs {
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
